@@ -18,3 +18,11 @@
 body {
   background: rgb(238, 238, 238);
 }
+.footer-list {
+  display: flex;
+  justify-content: center; /* Zentriert die Listenelemente horizontal */
+}
+
+.footer-list li {
+  margin-right: 20px; /* Abstand zwischen den Listenelementen */
+}
