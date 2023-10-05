@@ -1,0 +1,20 @@
+.card-img-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+.grey_list {
+  color: rgb(126, 126, 126);
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main_list {
+  color: rgb(0, 0, 0);
+  /* list-style: none; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-header-with-gradient {
+  background: #75b559;
+  color: rgb(255, 255, 255);
+}
+body {
+  background: rgb(238, 238, 238);
+}
