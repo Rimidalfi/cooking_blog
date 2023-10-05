@@ -1,0 +1,36 @@
+* {
+    font-size: larger;
+}
+
+.container-fluid {
+    background-color: white;
+}
+
+.list-group-item:hover {
+    background-color: green;
+    color: white;
+}
+
+#list-item-2 {
+    border-bottom: 3px solid black;
+}
+
+#list-item-3 {
+    border-bottom: 3px solid black;
+}
+
+#list-item-4 {
+    border-bottom: 3px solid black;
+}
+
+#list-item-5 {
+    border-bottom: 3px solid black;
+}
+
+#list-item-6 {
+    border-bottom: 3px solid black;
+}
+
+#list-item-1 {
+    border-bottom: 3px solid black;
+}
