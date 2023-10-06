@@ -4,24 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Document</title>
   </head>
   <body>
-    <div class="d-flex justify-content-center">
-        <nav>
-            <ul class="d-flex gap-5 list-unstyled fs-5 mt-5">
-                <li><a class="text-decoration-none" href="index.html">Home</a></li>
-                <li><a class="text-decoration-none" href="bolognese.html">Bolognese</a></li>
-                <li><a class="text-decoration-none" href="ricks-rezept.html">Chili con Carne</a></li>
-                <li><a class="text-decoration-none" href="/tortellini-pilz-auflauf.html">Tortellini-Pilz-Auflauf</a></li>
-                <li>Kontakt<a class="text-decoration-none" href=""></a></li>
+    <div class="d-flex justify-content-end navbar navbar-expand-lg pe-4 pt-4">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button> 
+        <nav class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav d-flex gap-5 list-unstyled fs-5 mt-5"  id="navbarNav">
+                <li class="nav-item"><a class="text-decoration-none nav-link active" aria-current="page" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="text-decoration-none nav-link" href="bolognese.html">Bolognese</a></li>
+                <li class="nav-item"><a class="text-decoration-none nav-link" href="ricks-rezept.html">Chili con Carne</a></li>
+                <li class="nav-item"><a class="text-decoration-none nav-link" href="tortellini-pilz-auflauf.html">Tortellini-Pilz-Auflauf</a></li>
+                <li class="nav-item"><a class="text-decoration-none nav-link" href="">Kontakt</a></li>
             </ul>
         </nav>
     </div>
     <main class="mt-5">
         <div class="container">
-        <div class="d-flex">
-            <div class="col-6 align-self-center pe-4">
+        <div class="d-flex row">
+            <div class="col-12 col-md-6 align-self-center pe-4">
                 <h1>Bolognese<a href=""></a></h1>
                 <p class="pe-2">Saftige Spaghetti Bolognese: In einer Pfanne 
                     Zwiebeln und Knoblauch anbraten, Hackfleisch 
@@ -33,38 +37,38 @@
                     perfekt für Genussmomente. Buon appetito!</p>
                 <p>Zubereitung: 1Std 35 Min</p>
                 <p>Portion: 6 Personen</p>
-                <a href="bolognese.html"><button>Zum Rezept</button></a>
+                <a href="bolognese.html"><button class="mb-4">Zum Rezept</button></a>
             </div>
-            <div class="col-6"><img style="max-width:600px; height:auto;" src="Bilder/Bolognese.jpg" alt="Spaghetti Bolognese"><a href=""></a></img></div>
+            <div class="d-flex col-12 col-md-6"><img style="min-width:300px; max-width:600px; height:auto;" src="Bilder/Bolognese.jpg" alt="Spaghetti Bolognese"><a href=""></a></img></div>
         </div>
-        <div class="d-flex mt-5">
-            <div class="col-6 align-self-center pe-4">
+        <div class="d-flex row mt-5">
+            <div class="col-12 col-md-6 align-self-center pe-4">
                 <h1>Chili con Carne<a href=""></a></h1>
                 <p>Beliebt auf Partys oder als Eintopf für jeden Tag: Chili con Carne ist ein heißgeliebter Klassiker, den wir immer wieder gerne essen. Wir zeigen dir das von Jamie Oliver inspirierte Rezept!</p>
                 <p>Zubereitung: 35 Min</p>
                 <p>Portion: 4 Personen</p>
-                <button><a href="/cooking_blog/rezept-rick.html">Zum Rezept</a></button>
+                <a href="rezept-rick.html"><button class="mb-4">Zum Rezept</button></a>
             </div>
-            <div class="col-6"><img style="max-width:600px; height:auto;"src="/cooking_blog/img/chili-con-carne-nach-jamie-oliver,id=7199afe9,b=lecker,w=1200,rm=sk.webp" alt="Spaghetti Carbonara"><a href=""></a></img></div>
+            <div class="col-12 col-md-6"><img style="min-width:300px; max-width:600px; height:auto;"src="img/chili-con-carne-nach-jamie-oliver,id=7199afe9,b=lecker,w=1200,rm=sk.webp" alt="Spaghetti Carbonara"><a href=""></a></img></div>
         </div>
-        <div class="d-flex mt-5">
-            <div class="col-6 align-self-center pe-4">
+        <div class="d-flex row mt-5">
+            <div class="col-12 col-md-6 align-self-center pe-4">
                 <h1>Tortellini-Pilz-Auflauf<a href=""></a></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo hic commodi reiciendis sit iure vero! Quos, quae. Accusamus optio enim architecto sapiente nostrum iure dolores iste at fugiat, incidunt esse quae obcaecati beatae provident officia deserunt, neque reprehenderit repellendus dolor unde vero soluta minima. Nostrum vel doloremque iste sapiente itaque?</p>
                 <p>Zubereitung: 25 Min</p>
                 <p>Portion: 4 Personen</p>
-                <a href="tortellini-pilz-auflauf.html"><button>Zum Rezept</button></a>
+                <a href="tortellini-pilz-auflauf.html"><button class="mb-4">Zum Rezept</button></a>
             </div>
-            <div class="col-6"><img style="max-width:600px; height:auto;" src="Images/Tortellini-Pilz-Auflauf-50a70327e7daf.jpg" alt="Tortellini-Pilz-Auflauf"><a href=""></a></img></div>
+            <div class="col-12 col-md-6"><img style="min-width:300px; max-width:600px; height:auto;" src="Images/Tortellini-Pilz-Auflauf-50a70327e7daf.jpg" alt="Tortellini-Pilz-Auflauf"><a href=""></a></img></div>
         </div>
     </div>
     </main>
-    <footer class="d-column bg-secondary-subtle p-4 mt-5 ">
-        <div class="d-flex justify-content-center gap-4 pt-3"><h5>Home<a href=""></a></h5>
-        <h5><a href="bolognese.html">Bolognese</a></h5>
-        <h5><a href="/cooking_blog/rezept-rick.html">Chili con Carne</a></h5>
-        <h5><a href="tortellini-pilz-auflauf.html">Tortellini-Pilz-Auflauf</a></h5>
-        <h5>Kontakt<a href=""></a></h5></div>
+    <footer class="bg-secondary-subtle p-4 mt-5 ">
+        <div class="d-md-flex justify-content-center gap-4 pt-3"><h5><a href="index.html">Home</a></h5>
+        <div><h5><a href="bolognese.html">Bolognese</a></h5></div>
+        <div><h5><a href="/cooking_blog/rezept-rick.html">Chili con Carne</a></h5></div>
+        <div><h5><a href="tortellini-pilz-auflauf.html">Tortellini-Pilz-Auflauf</a></h5></div>
+        <div><h5><a href="">Kontakt</a></h5></div></div>
         <div class="d-flex justify-content-center mt-5"><p>Copyrights by <span class="fw-semibold fs-5"> Björn, Rick & Wladimir</span></p></div>
     </footer>
   </body>
