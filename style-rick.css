@@ -2,8 +2,17 @@
     font-size: larger;
 }
 
+.card:hover {
+    transition: 0.2ms;
+    transform: scale(1.2)
+}
+
 .container-fluid {
     background-color: white;
+}
+
+.table {
+    font-size: medium;
 }
 
 .list-group-item:hover {

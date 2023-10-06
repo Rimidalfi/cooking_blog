@@ -16,8 +16,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link active text-uppercase" href="/cooking_blog/index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link text-uppercase" href="#">Carbonara</a>
-            <a class="nav-item nav-link text-uppercase" href="#">Bolognese</a>
+            <a class="nav-item nav-link text-uppercase" href="/cooking_blog/tortellini-pilz-auflauf.html">Tortellini-Pilz-Auflauf</a>
+            <a class="nav-item nav-link text-uppercase" href="/cooking_blog/bolognese.html">Bolognese</a>
           </div>
         </div>
       </nav>
@@ -27,6 +27,27 @@
     <div class="container">
         <img src="/cooking_blog/img/chili-con-carne-nach-jamie-oliver,id=7199afe9,b=lecker,w=1200,rm=sk.webp" class="img-fluid" alt="Responsive image">
     </div>
+    <div class="container">
+      <div class="row">
+      <div class="bg-success rounded p-1 ps-2 pe-2 font-weight-bold"><span class="fw-medium font-weight-bold text-white">ARBEITSZEIT:</span> 35 MIN</div>
+      <div class="col"></div>
+      <div class="bg-success rounded p-1 ps-2 pe-2 font-weight-bold"><span class="fw-medium font-weight-bold text-white">BACKEN:</span> 90 MIN</div>
+      <div class="col"></div>
+      <div class="bg-success rounded p-1 ps-2 pe-2 font-weight-bold"><span class="fw-medium font-weight-bold text-white">NIVEAU:</span> Mittel</div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <br>
+      <p>Der mexikanische Eintopf mit Hack, feurigem Chili, Tomaten, Bohnen und Mais ist nicht nur ein geniales Partyessen, er eignet sich auch als Essen für jeden Tag, das du prima vorkochen kannst - denn aufgewärmt schmeckt Chili con Carne noch besser!
+        Das Besondere an diesem Rezept? Eine gute Prise Zimt, Kreuzkümmel und getrocknete Tomaten in Öl, die für besonders fruchtiges Aroma und leichte Süße sorgen.</p>
+    </div>
+    <div class="row">
+      <div class="col-4"></div>
+      <button type="button" class="btn btn-danger btn-lg col-4 font-weight-bold" data-="" id="spicy">SPICY</button>
+      <div class="col-4"></div>
+    </div>
+  </div>
     <!-- Zutatenliste Anfang -->
     <div class="container">
         <div class="col"></div>
@@ -136,16 +157,18 @@
       </div>
       </div>
     </div>
+    <br>
+    <br>
    <!-- Ende Schritte -->
    <!-- cards -->
    <div class="row">
-    <div class="col-3"></div>
+    <div class="col-4"></div>
    <div class="card col-2" style="width: 18rem;">
-    <img class="card-img-top" src="/cooking_blog/Bilder/Carbonara.jpg" alt="Card image cap">
+    <img class="card-img-top" src="/cooking_blog/Bilder/Bolognese.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Carbonara</h5>
-      <p class="card-text">Original italienische Carbonara</p>
-      <a href="#" class="btn btn-primary">Zum Rezept</a>
+      <h5 class="card-title">Bolognese</h5>
+      <p class="card-text">Original italienische Bolognese</p>
+      <a href="/cooking_blog/bolognese.html" class="btn btn-primary">Zum Rezept</a>
     </div>
   </div>
   <div class="card col-2" style="width: 18rem;">
@@ -157,14 +180,21 @@
     </div>
   </div>
   <div class="card col-2" style="width: 18rem;">
-    <img class="card-img-top" src="/cooking_blog/Bilder/Carbonara.jpg" alt="Card image cap">
+    <img class="card-img-top" src="/cooking_blog/Images/Tortellini-Pilz-Auflauf-50a70327e7daf.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Carbonara</h5>
-      <p class="card-text">Original italienische Carbonara</p>
-      <a href="#" class="btn btn-primary">Zum Rezept</a>
+      <h5 class="card-title">Tortellini-Pilz-Auflauf</h5>
+      <p class="card-text">Ein grandioser Auflauf, ganze einfach.</p>
+      <a href="/cooking_blog/tortellini-pilz-auflauf.html" class="btn btn-primary">Zum Rezept</a>
     </div>
   </div>
   <div class="col-3"></div>
 </div>
+<script>
+  const button = document.getElementById("spicy");
+
+button.addEventListener("click", () => {
+  alert("Hello World");
+});
+</script>   
 </body>
 </html>
